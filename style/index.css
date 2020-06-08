@@ -73,9 +73,10 @@ width: 100%;
 }
 .header{
    align-items:center;
+   flex-direction:column;
 }
 .mid {
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap:wrap;
   width:100%;
   align-items:center;
@@ -96,14 +97,18 @@ width: 100%;
   display: flex;
 }
 .header{
+  flex-direction: column;
    align-items:center;
 }
 .mid {
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap:wrap;
   width:100%;
   align-items:center;
-     }
+}
+.mid img {
+  min-width: 50%;
+}
 .one, .two, .three, .four{
   width:50%;
    }
