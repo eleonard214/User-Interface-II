@@ -1,1 +1,55 @@
-/* Add CSS styling here */
+html{
+    font-size: 62.5%;  
+}
+header {
+    background: lightgreen;
+    }
+h1 {
+    color: purple;
+    font-size: 6rem;
+}    
+h1:hover {
+    font-size: 8rem;
+    background: purple;
+    color: rgb(209, 139, 9);
+}
+nav {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.container1 {
+    display:flex;
+}
+.toptext {
+padding: 2rem;
+}
+h2 {
+    font-size: 3rem;
+    }
+
+#myprojects {
+    font-size: 3rem;  
+}
+.toptext p {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.gallery {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: green;
+    font-size: 2rem;
+}
+footer {
+    font-size: 2rem;
+    display:flex;
+    background: lightgreen;
+    color:purple;
+}
+
+h3:hover {
+    color: (209, 139, 9);
+}
